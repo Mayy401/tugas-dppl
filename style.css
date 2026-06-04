@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.card{
+    width: 300px;
+    background: linear-gradient(to right, cyan, white);
+    padding: 50px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+@keyframes slideUp {
+    from { opacity: 0; transform: translateY(30px);}
+    to { opacity: 1; transform: translateY(0);}
+}
+
+.card h2 {
+    text-align: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255,255,255,0.2);
+    background: rgba(255,255,255,0.1);
+    color: black;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to right, red, white);
+    color: black;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(
+        to right,
+        red, white
+
+    );
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255,0,0,0.6);
+}
+
+a {
+    text-align: center;
+}

@@ -1,0 +1,33 @@
+* {
+    cursor: default;
+}
+
+body {
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    animation: slideUp 0.8s ease-out;
+}
+
+@keyframes slideUp {
+    from { opacity: 0; transform: translateY(30px);}
+    to { opacity: 1; transform: translateY(0);}
+}
+
+select {
+    width: 300px;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background: linear-gradient(to right, cyan, white);
+}
+
+button {
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to right, red, white);
+    color: black;
+    cursor: pointer;
+}
